@@ -1,0 +1,118 @@
+
+
+body{
+    background-image: url(event\ img.jpg);
+   text-align: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+h1{
+   box-sizing: border-box;
+   padding: 20px;
+    border: 10px solid blue
+    align-self: center;
+    margin: 40px;
+    border-radius: 10px;
+    font-size: 70px;
+    color: black
+    animation-name: boun;
+    animation-duration: 2s
+     }
+@keyframes boun{
+   0%{
+      width: 0%;
+   }
+   100%{
+      width: 100%;
+   }
+}
+     
+
+     
+    
+    .heading{
+         color: black;
+         font-size: 50px;
+         text-align: center;
+
+
+     }
+     .style1{
+         color: black;
+     }
+     #style2{
+         color: black
+     }
+     div{
+        padding: 20px;
+        background-color: gray;
+        
+        
+        
+        
+     }
+     div>h2>a:hover{
+        color: aqua;
+        
+     }
+     p{
+        color: black;
+        font-size: 30px;
+        font-weight: bold;
+     }
+     a{
+        text-decoration: none;
+        color: red;
+     }
+    input[type="submit"]{
+        padding: 20px ;
+        background-color: wheat;
+        border-radius: 6px;
+     }
+     input[type="reset"]{
+        padding: 20px ;
+        background-color: wheat;
+        border-radius: 6px;
+     }
+     input[type="submit"]:hover{
+        padding: 20px ;
+        background-color: bisque;
+        border-radius: 6px;
+     }
+     input[type="reset"]:hover{
+        padding: 20px ;
+        background-color: bisque;
+        border-radius: 6px;
+     }
+     input[type="text"],input[type="number"],#city,input[type="date"],input[type="email"]{
+        width: 50%;
+        height: 30px;
+        border-radius: 4px;
+        background-color: gray;
+        color: white ;
+        font-size: 30px;
+     }
+     .right{
+      float: right;
+     }
+     .box12{
+      padding: 5px;
+      border: 2px;
+      position: sticky;
+      top: 10px;
+      left: 10px;
+      border-radius: 4px;
+      
+
+     }
+     .box12:hover{
+         padding: none;
+         position: sticky;
+         top: 10px;
+         left: 10px;
+         border-radius: 4px;
+         
+   
+        
+     }
