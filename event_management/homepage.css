@@ -3,6 +3,8 @@ background-image: url(event\ img.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
+background-size: auto;
+
 }
 
 
@@ -31,19 +33,62 @@ background-attachment: fixed;
 }
 h1{
     text-align: center;
+    animation: h1ani 3s 1s 1s iteration-count linear;
     font-size: 60px;
 }
 .img{
-    float: right;
+    float: inline-start;
+    animation-name: imgani;
+    animation-duration: 4s;
 }
 .intro{
-    height: 300px;
-    width: 300px;
+    
     background-color: gray;
+    padding: 20px;
+    animation-name: introani;
+    animation-duration: 3s;
     border-radius: 10px;
     color: black;
     font-size: 21px;
+    font-weight: bold; 
+    
+}
+.getstarted{
+    text-align: center;
+    font-size: 50px;
+    animation-name: getstartedani;
+    animation-duration: 2s;
     font-weight: bold;
-    
-    
+}
+@keyframes introani{
+     0%{
+        opacity: 0;
+     }
+     100%{
+        opacity: 100;
+     }
+}
+@keyframes imgani{
+    0%{
+       opacity: 0;
+    }
+    100%{
+       opacity: 100;
+    }
+}
+@keyframes getstartedani{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+}
+@keyframes h1ani{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
 }

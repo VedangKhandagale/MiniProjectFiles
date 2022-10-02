@@ -5,7 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="SerProReg.css">
+    <script src="SerProReg.js"></script>
     <title>Document</title>
+    <style>
+       body{
+        background-image: url("https://images.pexels.com/photos/6102031/pexels-photo-6102031.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+       }
+       .container{
+        width: 33%;
+        margin: auto 30pc;
+       }
+
+    </style>
 </head>
 <body>
     <div class="container">
@@ -22,10 +33,10 @@
         <div class="box">
 
 
-            <strong>Password:</strong><input type="password" name="password" placeholder="Enter your password">
+            <strong>Password:</strong><input type="password" name="password" id="pass" placeholder="Enter your password">
         </div>
         <br>
-        <button class="btn">Sign in</button>
+        <button class="btn" onclick="validate()">Sign in</button>
     </div>
 </body>
 </html>

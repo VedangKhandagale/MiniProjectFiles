@@ -47,36 +47,36 @@
     <!-- <br> -->
     <h2 class="heading">Personal Details </h2>
     <!-- <br> -->
-    <form action="">
-          <p class="style1">Name <input type="text" required> </p>
+    <form action="formfilling.php" method="post">
+          <p class="style1" name="CName" value="CName">Name <input type="text" required> </p>
           <p id="style2"> Gender: 
-                    Male <input type="radio" name="gender" id="gender" required>
-                    Female <input type="radio" name="gender" id="gender" required>
+                    Male <input type="radio" name="gender" id="gender" value="M" required>
+                    Female <input type="radio" name="gender" id="gender" value="F" required>
                     
           </p>
-          <p>Date of birth: <input type="date" required></p>
-          <p>E-mail address: <input type="email" required></p>
-          <p>Mobile No. <input type="number" required></p>
-          <p>Is same as Whatsapp Number? </p>
-          <p>Yes <input type="radio" name="wh_no" id="wh_no" required>
-              No <input type="radio" name="wh_no" id="wh_no" required></p>
+          <!-- <p name="DOB">Date of birth: <input type="date" required></p> -->
+          <p name="email">E-mail address: <input type="email" required></p>
+          <p name="phoneno">Mobile No. <input type="number" required></p>
+          <p name="wno">Is same as Whatsapp Number? </p>
+          <p>Yes <input type="radio" name="wh_no" id="wh_no" value="Yes" required>
+              No <input type="radio" name="wh_no" id="wh_no" value="No" required></p>
           
           <h2 class="heading">Address Details</h2>
           <!-- <br><br> -->
-          <p> Address Line 1 <input type="text" required></p>
-          <p> Address Line 2 <input type="text" required></p>
+          <p name="AddLine1" value="AddLine1"> Address Line 1 <input type="text" required></p>
+          <p name="AddLine2" value="AddLine2"> Address Line 2 <input type="text" required></p>
           <p> city
           <select name="city" id="city" required>
                <option value="">--choose your city--</option>
-               <option value="Ambarnath">Ambarnath</option>
-               <option value="Ghatkopar">Ghatkopar</option>
-               <option value="Kurla">Kurla</option>
+               <option value="AMB">Ambarnath</option>
+               <option value="GKO">Ghatkopar</option>
+               <option value="KLA">Kurla</option>
           </select>
           </p>
-          <p> Pincode: <input type="number" required></p>
+          <p name="pincode"> Pincode: <input type="number" required></p>
           <p> Is current address same as Permanent Address? 
-               Yes <input type="radio" name="Per_add" id="Per_add" required>
-               No <input type="radio" name="Per_add" id="Per_add" required>
+               Yes <input type="radio" name="Per_add" id="Per_add" value="YES" required>
+               No <input type="radio" name="Per_add" id="Per_add" value="NO" required>
 
           </p>
           <p> <input type="submit" value="register"> <input type="reset" value="reset all"></p>
