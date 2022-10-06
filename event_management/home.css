@@ -74,20 +74,25 @@ body{
   }
   .getstr{
     padding: 10px;
+    font-size: 60px;
     text-align: center;
     background-color: #248add;
-    border-radius: 6px;
+    border-radius: 20px;
     text-decoration: none;
     font-weight: bold;
-    color: whitesmoke
+    color: whitesmoke;
+    text-decoration: none;
+    
 
   }
  .getstr:hover{
     padding: 10px;
+    font-size: 60px;
     text-align: center;
     background-color: blueviolet;
-    border-radius: 6px;
+    border-radius: 20px;
     text-decoration: none;
     font-weight: bold;
     color: white;
+    text-decoration: none;
  }

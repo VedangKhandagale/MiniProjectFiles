@@ -33,7 +33,7 @@
     <div class="navpage">
         <div class="name">EVENTO</div>
         <a href="NewServiceProvider.html" target="_blank">Register</a> &nbsp;&nbsp;
-        <a href="SerProReg.html">Admin Panel</a> &nbsp;&nbsp;
+        <a href="admin.php">Admin Panel</a> &nbsp;&nbsp;
     </div>
     <!-- <a href="#">New Service Provider</a> -->
 
@@ -66,7 +66,7 @@
     </div>
          
     <div class="getstr">
-      <a  href="displayinfo.php">See All Events</a>
+      <a  href="displayinfo\displayinfo.php">See All Events</a>
   </div>
 
 
