@@ -1,94 +1,75 @@
 body{
-background-image: url(event\ img.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
-background-size: auto;
+    background-image: url("https://images.pexels.com/photos/6102031/pexels-photo-6102031.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+    
+    
+    
+    .navpage{
+        background-color: lightblue;
+        padding: 20px;
+        /* padding-right: 2pc; */
+        padding-left: 65pc;
+        border-radius: 6px;
+        font-size: 20px;
+    }
 
-}
+        
 
-
-
-.navpage{
-    background-color: gray;
-    padding: 20px;
-    border-radius: 6px;
-}
-.navpage a{
+.navpage a {
     padding: 10px;
-    background-color: rgb(186, 149, 149);
+    background-color: #248add;
     border-radius: 6px;
     text-decoration: none;
     font-weight: bold;
-    color: white;
-
-}
-.navpage a:hover{
-    padding: 10px;
-    background-color: rgb(137, 109, 76);
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: bold;
-    color: white;
-}
-h1{
-    text-align: center;
-    animation: h1ani 3s 1s 1s iteration-count linear;
-    font-size: 60px;
-}
-.img{
-    float: inline-start;
-    animation-name: imgani;
-    animation-duration: 4s;
-}
+    color: whitesmoke
+    
+    }
+    .navpage a:hover{
+        padding: 10px;
+        background-color: blueviolet;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .name{
+        float: right;
+        padding-right: 83pc;
+        font-weight: bolder;
+        font-size: x-large;
+        color: white;
+        font-family: cursive;
+        color: darkmagenta;
+    }
 .intro{
-    
-    background-color: gray;
-    padding: 20px;
-    animation-name: introani;
-    animation-duration: 3s;
+    background-color: rgb(15 90 151);
+    border: 2px;
+    padding: 15px;
+    float: left;
+    width: 15%;
     border-radius: 10px;
-    color: black;
-    font-size: 21px;
-    font-weight: bold; 
+    font-size: large;
+    font-weight: lighter;
+    word-spacing: 2px;
+    color: white;
+}
+.head{
+   padding-left: 55pc;
+    font-size: xx-large;
+}
+@keyframes example {
+    from {background-color: rgb(15 90 151);}
+    to {background-color: rgb(117, 117, 218);}
+  }
+  
+  /* The element to apply the animation to */
+  .intro {
     
-}
-.getstarted{
-    text-align: center;
-    font-size: 50px;
-    animation-name: getstartedani;
-    animation-duration: 2s;
-    font-weight: bold;
-}
-@keyframes introani{
-     0%{
-        opacity: 0;
-     }
-     100%{
-        opacity: 100;
-     }
-}
-@keyframes imgani{
-    0%{
-       opacity: 0;
-    }
-    100%{
-       opacity: 100;
-    }
-}
-@keyframes getstartedani{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 100;
-    }
-}
-@keyframes h1ani{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 100;
-    }
-}
+    background-color:rgb(15 90 151);
+    animation-name: example;
+    animation-duration: 4s;
+  }
